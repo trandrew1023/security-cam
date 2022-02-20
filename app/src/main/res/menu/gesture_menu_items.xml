@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/gesture_menu_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/gesture_menu_camera"
+            android:icon="@drawable/ic_camera_black_24dp"
+            android:title="@string/camera" />
+        <item
+            android:id="@+id/gesture_menu_viewer"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="@string/viewer" />
+        <item
+            android:id="@+id/gesture_menu_streamer"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="@string/streamer" />
+        <item
+            android:id="@+id/gesture_menu_clips"
+            android:icon="@drawable/ic_slow_motion_video_black_24dp"
+            android:title="@string/clips" />
+        <item
+            android:id="@+id/gesture_menu_user"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="@string/user" />
+    </group>
+
+
+</menu>

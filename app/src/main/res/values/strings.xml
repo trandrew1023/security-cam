@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">SecurityCam</string>
+    <string name="home">Home</string>
+    <string name="camera">Camera</string>
+    <string name="user">User</string>
+    <string name="clips">Clips</string>
+
+    <string name="hello_camera_fragment">Hello Camera Fragment</string>
+    <string name="hello_clip_fragment">Hello Clip Fragment</string>
+    <string name="hello_user_fragment">Hello User Fragment</string>
+    <string name="hello_home_fragment">Hello Home Fragment</string>
+
+    <string name="web_client_id">152764582545-rhhgsf7nf1fp9ieptjq51cvo5oot4p0d.apps.googleusercontent.com</string>
+    <string name="user_signin">Sign In</string>
+    <string name="user_signout">Sign Out</string>
+    <string name="user_sync">Sync Files</string>
+
+    <string name="sample_ip">10.26.40.54</string>
+    <string name="enter_ip">rtsp://10.26.40.54:8554/f.ts</string>
+    <string name="swap">Swap</string>
+
+    <string name="viewer">Viewer</string>
+    <string name="streamer">Streamer</string>
+
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="record">Record</string>
+    <string name="stream">Stream</string>
+
+    <string name="clip_delete">Delete</string>
+    <string name="clip_share">Share</string>
+    <string name="clip_edit">Edit</string>
+
+</resources>

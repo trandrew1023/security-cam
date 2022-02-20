@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.User">
+
+    <TextView
+        android:id="@+id/user_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/user_signinBtn"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/user_id"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="240dp"
+        android:text="@string/user_signin" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/user_signinBtn"
+        android:layout_centerHorizontal="true">
+
+        <RelativeLayout
+            android:id="@+id/logout_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp">
+
+            <ImageView
+                android:id="@+id/user_signoutBtn"
+                android:layout_width="52dp"
+                android:layout_height="44dp"
+                android:src="@drawable/icons8"
+                android:text="@string/user_signout" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/user_signoutBtn"
+                android:layout_centerHorizontal="true"
+                android:text="@string/user_signout" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_toRightOf="@+id/logout_container">
+
+            <ImageView
+                android:id="@+id/user_syncBtn"
+                android:layout_width="83dp"
+                android:layout_height="37dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="8dp"
+                android:src="@drawable/upload"
+                android:text="@string/user_sync" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/user_syncBtn"
+                android:layout_centerHorizontal="true"
+                android:text="@string/user_sync" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "152764582545",
+    "firebase_url": "https://securitycam-abc57.firebaseio.com",
+    "project_id": "securitycam-abc57",
+    "storage_bucket": "securitycam-abc57.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:152764582545:android:62626b79604fc542108d30",
+        "android_client_info": {
+          "package_name": "com.isanga.securitycam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "152764582545-jethj179b4c3b991tggk1b2ogq0qagf2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.isanga.securitycam",
+            "certificate_hash": "8678c1ba23f408b62c6f4744fc7c99c10712dd40"
+          }
+        },
+        {
+          "client_id": "152764582545-4qfuhv353vfcc1de8bocoqn7de6jpnsp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.isanga.securitycam",
+            "certificate_hash": "85592b9cfe9d3e89490072f43f27742c8a5bc679"
+          }
+        },
+        {
+          "client_id": "152764582545-rhhgsf7nf1fp9ieptjq51cvo5oot4p0d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5iPUqZEAAd8BUsfF2LES6N4SzmQftaO0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "152764582545-rhhgsf7nf1fp9ieptjq51cvo5oot4p0d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

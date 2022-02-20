@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/clip_share"
+        android:title="@string/clip_share" />
+    <item
+        android:id="@+id/clip_delete"
+        android:title="@string/clip_delete" />
+    <item
+        android:id="@+id/clip_edit"
+        android:title="@string/clip_edit" />
+</menu>
